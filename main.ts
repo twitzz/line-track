@@ -7,8 +7,8 @@ function car_backward () {
 function car_left () {
     mecanumRobot.Motor(LR.Upper_left, MD.Back, 35)
     mecanumRobot.Motor(LR.Lower_left, MD.Back, 35)
-    mecanumRobot.Motor(LR.Upper_right, MD.Forward, 50)
-    mecanumRobot.Motor(LR.Lower_right, MD.Forward, 50)
+    mecanumRobot.Motor(LR.Upper_right, MD.Forward, 42)
+    mecanumRobot.Motor(LR.Lower_right, MD.Forward, 42)
 }
 function car_forward () {
     mecanumRobot.Motor(LR.Upper_left, MD.Forward, 35)
@@ -17,8 +17,8 @@ function car_forward () {
     mecanumRobot.Motor(LR.Lower_right, MD.Forward, 35)
 }
 function car_right () {
-    mecanumRobot.Motor(LR.Upper_left, MD.Forward, 50)
-    mecanumRobot.Motor(LR.Lower_left, MD.Forward, 50)
+    mecanumRobot.Motor(LR.Upper_left, MD.Forward, 42)
+    mecanumRobot.Motor(LR.Lower_left, MD.Forward, 42)
     mecanumRobot.Motor(LR.Upper_right, MD.Back, 35)
     mecanumRobot.Motor(LR.Lower_right, MD.Back, 35)
 }
